@@ -4,4 +4,13 @@
 
 .terminal{
 	height: 80vh;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+.terminal_input:focus{
+	border: 0;
+}
+
+p{
+	margin: 0;
 }

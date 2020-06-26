@@ -1,0 +1,21 @@
+.progress-bar{
+	background-color: var(--warning);
+}
+
+.c-nav-btn{
+	padding: 0.25rem;
+	background-color: var(--warning);
+	width: 100% !important;
+	font-weight: 500;
+	font-size: large;
+}
+
+.c-nav-btn:focus{
+	background-color: var(--dark);
+  	color: var(--warning);
+}
+
+.dropdown-menu{
+	text-align: center;
+	width: 100% !important;
+}
