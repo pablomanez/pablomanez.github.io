@@ -19,3 +19,12 @@
 	text-align: center;
 	width: 100% !important;
 }
+
+.c-carousel{
+	width: 5% !important;
+}
+
+.c-carousel-icon{
+	font-size: 2rem;
+	color: var(--dark);
+}

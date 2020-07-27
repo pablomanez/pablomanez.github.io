@@ -70,6 +70,8 @@ function resetInputValue(){
 const page_about_me = "./html/about_me.html";
 const prj_meat_starto = "./html/meat_starto.html";
 const prj_tetris = "./html/tetris.html";
+const prj_the_crypt = "./html/the_crypt.html";
+const prj_the_hive = "./html/the_hive.html";
 const header = "./html/header.html";
 
 function loadAboutMe(){
@@ -88,6 +90,18 @@ function loadTetris(){
 	jQuery.get(prj_tetris, function(data) {
 		$("#main_content").html(data);
 	});
+}
+
+function loadTheCrypt(){
+	jQuery.get(prj_the_crypt, function(data) {
+		$("#main_content").html(data);
+	});	
+}
+
+function loadTheHive(){
+	jQuery.get(prj_the_hive, function(data) {
+		$("#main_content").html(data);
+	});		
 }
 
 // Se ejecuta al inicio
